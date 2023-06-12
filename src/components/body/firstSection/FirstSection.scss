@@ -1,0 +1,104 @@
+$primaryColor: #5368df;
+$secondaryColor: #f4f4f5;
+
+@mixin buttonStyle {
+  margin-right: 20px;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  min-width: 25%;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+  @media (max-width: 1500px) {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+.firstsection {
+  $paddingTop: 8rem;
+  $paddingRight: 10rem;
+  $paddingBottom: 1rem;
+  $paddingLeft: 10rem;
+
+  padding: $paddingTop $paddingRight $paddingBottom $paddingLeft;
+
+  & > section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    & > div {
+      padding-top: 3rem;
+      width: 50%;
+
+      & > h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+      }
+
+      & > p {
+        color: #b5b5c3;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        white-space: pre-line; 
+      }
+
+      & > div > .chrome {
+        @include buttonStyle;
+        background-color: $primaryColor;
+        &:hover {
+          color: $primaryColor;
+          border: 1px solid $primaryColor;
+          background-color: $secondaryColor;
+        }
+      }
+
+      & > div > .firefox {
+        @include buttonStyle;
+        background-color: $secondaryColor;
+        color: black;
+        &:hover {
+          background-color: white;
+          border: 1px solid black;
+        }
+      }
+
+      & > div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 1500px) {
+        max-width: 80%;
+        text-align: center;
+      }
+      @media (max-width: 1000px) {
+        width: 100%;
+        padding: 0 1rem;
+      }
+    }
+
+    & > img {
+      max-width: 80%;
+    }
+
+    @media (max-width: 1500px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1500px) {
+    padding: 0;
+    padding-top: 2rem;
+  }
+}

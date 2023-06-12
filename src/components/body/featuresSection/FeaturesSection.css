@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header > h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+.header > p {
+  color: #b5b5c3;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+  white-space: pre-line;
+}
+
+.tabs .tab-headers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media (max-width: 700px) {
+  .tabs .tab-headers {
+    flex-direction: column;
+  }
+}
+.tabs .tab-header {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 0 5px;
+  color: grey;
+  transition: color 0.3s ease;
+  width: 20%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.tabs .tab-header:hover {
+  color: #fa5757;
+}
+.tabs .tab-header.active {
+  border-bottom: 4px solid #fa5757;
+  color: black;
+}
+@media (max-width: 1500px) {
+  .tabs .tab-header {
+    width: 80%;
+  }
+}
+.tabs .tab-content {
+  margin: 4rem 25rem;
+}
+@media (max-width: 1500px) {
+  .tabs .tab-content {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .feature-tab {
+    padding: 2rem;
+  }
+}/*# sourceMappingURL=FeaturesSection.css.map */

@@ -1,0 +1,66 @@
+.speedy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.speedy > div {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.speedy > div > h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+.speedy > div > p {
+  color: #b5b5c3;
+  font-size: 18px;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+.speedy > div > button {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  min-width: 25%;
+  width: 20%;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #5368df;
+}
+@media (max-width: 1800px) {
+  .speedy > div > button {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .speedy > div > button {
+    display: none;
+  }
+}
+@media (max-width: 1500px) {
+  .speedy > div {
+    margin: 0;
+  }
+}
+.speedy > img {
+  max-width: 80%;
+}
+@media (max-width: 1500px) {
+  .speedy > img {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1800px) {
+  .speedy {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=SpeedySearcching.css.map */
