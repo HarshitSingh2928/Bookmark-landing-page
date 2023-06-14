@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./NavBar.css";
+import "./NavBar.scss";
 import applogo from "../../images/logo-bookmark.svg";
 import hamburger from "../../images/icon-hamburger.svg";
 import HamburgerMenu from "../hamburger-menu/HamburgerMenu";

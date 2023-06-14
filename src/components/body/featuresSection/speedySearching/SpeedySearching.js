@@ -1,5 +1,5 @@
 import React from 'react'
-import './SpeedySearcching.css'
+import './SpeedySearcching.scss'
 const SpeedySearching = ({para,pic,heading}) => {
   return (
    <section className='speedy'>

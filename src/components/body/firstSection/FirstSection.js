@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '../../../images/illustration-hero.svg'
-import './FirstSection.css'
+import './FirstSection.scss'
 const FirstSection = () => {
   return (
     <div className='firstsection'>

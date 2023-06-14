@@ -1,5 +1,5 @@
 import React from 'react'
-import './BottomSection.css'
+import './BottomSection.scss'
 const BottomSection = () => {
   return (
     <div className='bottom'>

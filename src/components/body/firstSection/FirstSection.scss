@@ -13,7 +13,7 @@ $secondaryColor: #f4f4f5;
   font-weight: bold;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 
-  @media (max-width: 1500px) {
+  @media (max-width: 1000px) {
     width: 100%;
     margin-bottom: 10px;
     margin-right: 0;
@@ -34,12 +34,15 @@ $secondaryColor: #f4f4f5;
     align-items: center; 
 
     & > div {
-      padding-top: 3rem;
+      // padding-top: 3rem;
       width: 50%;
 
       & > h1 {
         font-size: 3rem;
         margin-bottom: 0;
+        @media (max-width:1500px){
+          font-size: 2rem;
+        }
       }
 
       & > p {
@@ -49,6 +52,9 @@ $secondaryColor: #f4f4f5;
         margin-top: 2rem;
         margin-bottom: 2rem;
         white-space: pre-line; 
+        @media (max-width:1500px){
+          font-size: 14px;
+        }
       }
 
       & > div > .chrome {
@@ -76,29 +82,33 @@ $secondaryColor: #f4f4f5;
         flex-wrap: wrap;
       }
 
-      @media (max-width: 1500px) {
-        max-width: 80%;
-        text-align: center;
-      }
+      // @media (max-width: 1000px) {
+      //   max-width: 80%;
+      //   text-align: center;
+      // }
       @media (max-width: 1000px) {
         width: 100%;
         padding: 0 1rem;
+        text-align: center;
       }
     }
 
     & > img {
-      max-width: 80%;
+      max-width: 45%;
+      @media (max-width: 1000px) {
+      min-width: 80%;
+      }
     }
 
-    @media (max-width: 1500px) {
+    @media (max-width: 1000px) {
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
     }
   }
-
-  @media (max-width: 1500px) {
-    padding: 0;
-    padding-top: 2rem;
+  @media (max-width:900px){
+    padding: 2rem 4rem;
   }
+
+
 }

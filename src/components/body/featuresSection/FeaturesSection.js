@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './FeaturesSection.css'
+import './FeaturesSection.scss'
 import SpeedySearching from './speedySearching/SpeedySearching';
 import imgtab1 from '../../../images/illustration-features-tab-1.svg'
 import imgtab3 from '../../../images/illustration-features-tab-3.svg'

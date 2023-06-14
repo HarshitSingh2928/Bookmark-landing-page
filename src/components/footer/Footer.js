@@ -1,13 +1,14 @@
 import React from "react";
-import image from "../../images/logo-bookmark.svg";
+// import image from "../../images/logo-bookmark.svg";
 import facebook from "../../images/icon-facebook.svg";
 import twitter from "../../images/icon-twitter.svg";
-import "./Footer.css";
+import {ReactComponent as Logo} from "../../images/logo-bookmark.svg";
+import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
       <div className="content">
-        <img src={image} />
+        <Logo className="logo"/>
         <div>
           <li>
             <ul>FEATURES</ul>

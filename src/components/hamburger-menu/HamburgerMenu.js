@@ -1,5 +1,5 @@
 import React from "react";
-import "./HamburgerMenu.css";
+import "./HamburgerMenu.scss";
 import twitter from "../../images/icon-twitter.svg";
 import facebook from "../../images/icon-facebook.svg"
 const HamburgerMenu = () => {

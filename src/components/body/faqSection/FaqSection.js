@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "./Accordion";
-import "./FaqSection.css";
+import "./FaqSection.scss";
 const FaqSection = () => {
   return (
     <section className="faqSection">

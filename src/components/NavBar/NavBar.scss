@@ -39,11 +39,11 @@ nav {
       border: 1px solid #fa5757;
       color: #fa5757;
     }
-    @media (max-width: 1000px){
+    @media (max-width: 1500px){
        margin-left: 10px;
     }
     }
-    @media (max-width: 1500px){
+    @media (max-width: 1000px){
         display: none;
     
     }
@@ -53,7 +53,7 @@ nav {
   &>.hamburger{
     display: none;
   
-    @media (max-width: 1500px){
+    @media (max-width: 1000px){
         display:block;
         height: 18px;
     }
@@ -61,13 +61,13 @@ nav {
    &>.close{
     display: none;
   
-    @media (max-width: 1500px){
+    @media (max-width: 1000px){
         display:block;
         height: 30px;
         
     }
    }
-   @media (max-width: 1500px){
+   @media (max-width: 1000px){
     padding: 2rem 2rem 1rem 2rem;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './BrowserCard.css'
+import './BrowserCard.scss'
 const BrowserCard = ({ logo, title, description, buttonLabel }) => {
   return (
     <div className="vertical-card">

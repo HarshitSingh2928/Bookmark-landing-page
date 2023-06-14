@@ -47,21 +47,28 @@
   border-bottom: 4px solid #fa5757;
   color: black;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   .tabs .tab-header {
     width: 80%;
   }
 }
 .tabs .tab-content {
-  margin: 4rem 25rem;
+  margin: 2rem 15rem;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1350px) {
   .tabs .tab-content {
     margin: 0;
+    padding: 2rem 12rem;
+  }
+}
+@media (max-width: 1000px) {
+  .tabs .tab-content {
+    margin: 0;
+    padding: 0;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   .feature-tab {
     padding: 2rem;
   }

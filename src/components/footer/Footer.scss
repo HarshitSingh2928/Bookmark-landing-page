@@ -2,15 +2,14 @@
     display: flex;
     padding: 1.5rem 6rem;
     background-color: #252b46;
-    
     align-items: center;
     justify-content: space-between;
 .content{
     display: flex;
     align-items: center;
-    &>img{
-        fill: #fff;
-        height: 2rem;
+    &>.logo{
+        filter: invert(100%) sepia(37%) saturate(2%) hue-rotate(44deg) brightness(111%) contrast(101%);
+        height: 1.5rem;
     }
     &>div {
         display: flex;
@@ -48,8 +47,10 @@
 }
 .logos{
     display: flex;
+    
     &>img{
         padding: 0 1rem;
+        cursor: pointer;
     }
 }
 @media (max-width:900px){

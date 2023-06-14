@@ -1,7 +1,7 @@
 .speedy {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 .speedy > div {
   margin-left: 2rem;
@@ -14,18 +14,28 @@
   margin-bottom: 0;
   font-weight: 800;
 }
+@media (max-width: 1800px) {
+  .speedy > div > h1 {
+    font-size: 1.5rem;
+  }
+}
 .speedy > div > p {
   color: #b5b5c3;
   font-size: 18px;
   line-height: 1.5;
   white-space: pre-line;
 }
+@media (max-width: 1800px) {
+  .speedy > div > p {
+    font-size: 14px;
+  }
+}
 .speedy > div > button {
   padding: 1rem;
   border: none;
   border-radius: 5px;
-  min-width: 25%;
-  width: 20%;
+  min-width: 40%;
+  width: 40%;
   cursor: pointer;
   color: white;
   font-size: 15px;
@@ -33,7 +43,7 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: #5368df;
 }
-@media (max-width: 1800px) {
+@media (max-width: 1000px) {
   .speedy > div > button {
     width: 100%;
   }
@@ -43,20 +53,21 @@
     display: none;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   .speedy > div {
     margin: 0;
   }
 }
 .speedy > img {
-  max-width: 80%;
+  width: 60%;
+  max-width: 40%;
 }
 @media (max-width: 1500px) {
   .speedy > img {
     margin-top: 2rem;
   }
 }
-@media (max-width: 1800px) {
+@media (max-width: 1000px) {
   .speedy {
     flex-direction: column;
     justify-content: center;

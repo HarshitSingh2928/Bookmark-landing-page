@@ -53,22 +53,27 @@
       border-bottom: 4px solid #fa5757;
       color: black;
     }
-    @media (max-width : 1500px){
+    @media (max-width : 1000px){
         width: 80%;
     }
   
   }
 
   .tab-content {
-    margin: 4rem 25rem;
-    @media (max-width : 1500px){
+    margin: 2rem 15rem;
+    @media (max-width : 1350px){
         margin: 0;
+        padding: 2rem 12rem;
     }
+    @media (max-width : 1000px){
+      margin: 0;
+      padding:0;
+  }
     
   }
 }
 .feature-tab{
-    @media (max-width : 1500px){
+    @media (max-width : 1000px){
         padding: 2rem;
     }
 }

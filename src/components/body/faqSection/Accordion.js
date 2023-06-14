@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Accordian.css'
+import './Accordian.scss'
 import arrowIcon from '../../../images/icon-arrow.svg';
 
 const Accordion = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./ExtensionSection.css";
+import "./ExtensionSection.scss";
 import BrowserCard from "./BrowserCard";
 import logoImageChrome from "../../../images/logo-chrome.svg";
 import logoImageFirefox from "../../../images/logo-firefox.svg";
@@ -35,6 +35,7 @@ const ExtensionSection = () => {
         title="Add to Opera"
         description="Minimum version 46"
         buttonLabel="Add & Install Extention"
+        
       />
       </div>
      
